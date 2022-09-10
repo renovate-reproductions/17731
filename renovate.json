@@ -1,0 +1,31 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base"
+    ],
+    "labels": [
+        "dependencies"
+    ],
+    "enabledManagers": [
+        "terraform"
+    ],
+    "hostRules": [
+        {
+            "matchHost": "https://api.github.com/repos/gruntwork-io",
+            "encrypted": {
+                "token": "wcFMA/xDdHCJBTolAQ/6Ap1HO+bad/AULDbOAWzLHpL836dV4NV30Hhh3IjI5ild/QL4KKdA4pvUGFmMabAJna0WrWLrcapnrV/kl/thcBjgsuMeA+kFRQsLponbYONJ79s3P+B2xEkzVvAu9uHOM6fPORpChJSvE5oRcHy68cpyK3if7bWAKMR24aXwPxF5ppKVfkfnK71a1+q0FD6vg+/PEbxtNkEu0O48vTDkMdmW9kqHuSElBmVSRmlb5mW3I8tkkmD8czcrmQp7KquVgj0AYJG7UndSAbku0QYbwP7EQPMtapuPn/odw7zqVxf4TVsk8ZlWABsvzsI21C+3cM4iMey1uCScm2Ecck81Fz63b8Md33f0O4dc+znSwZuzqHlWxgcMG0Zyr0GgwVQwut71kU5CcYXPpBZZgaRCMsceGKVqQAiY2dkjp7LRk+6Jl0rDAynllVqTICvkPqv5n7dHonFMgS2S8VlKBwhX//YECnTinDvrR50ymi8Qs4bwwpSpaWZleXzYgNZdOYnle5rH4VuxLNjJDjLQs7wFUe1rMt+frarq4im4iyIbw56c1o0tyezY07lSl6iPiWy+N9S6u5lxbH2rHnUHa46KzMQRP8aIw3rABrdhTDOEvgfTVae+Tnt5txGCdsq6Lu13MXwHq7kxtlwy5bQq7FGQLY/IUiKHxp2E/gCyjVOqePfSeQEXm5VitIv51XvAAqawDWFiFt5d32JKAxUHdGpms67zFO29jfrWtPwnfG/haemlDSQlQj9eRPs8AseP8oDcOzVmW2ubPRnGtKZNr29ooRXbUlQjC6mwZjzbgvaNq3tOIP2AwzQE3uhZWzQ82pYG9r1SZ6Zasm0bhyg"
+            }
+        }
+    ],
+    "packageRules": [
+        {
+            "managers": [
+                "terraform"
+            ],
+            "additionalBranchPrefix": "{{baseDir}}-",
+            "packagePatterns": [
+                ".*"
+            ]
+        }
+    ]
+}
