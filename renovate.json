@@ -9,12 +9,6 @@
     "enabledManagers": [
         "terraform"
     ],
-    "hostRules": [
-        {
-            "matchHost": "https://api.github.com/repos/gruntwork-io",
-            "token": "abc123"
-        }
-    ],
     "packageRules": [
         {
             "managers": [
