@@ -11,7 +11,7 @@
     ],
     "hostRules": [
         {
-            "matchHost": "https://api.github.com",
+            "matchHost": "https://api.github.com/repos/gruntwork-io",
             "encrypted": {
                 "token": "wcFMA/xDdHCJBTolAQ/9GwByqWK9Ab5UWKGsCfTWqkz2EfJ0KDo6IaLexIG4Z/i7F6pYfATZEZtOTz8jQesSwwgYSOUEDRTvgtgiRfE+q+cma7a19YZng/370Rbd3rur2viav3kt1P46/P0nRsT68uoQGUbNOBeYaWBy+bftxTU530NCDLahI5tVZx3cTi3gQWOo9DVbB+up1zJsJo5k7KMcBaGF4ORLCGdqgHFUYejaN5EUTAXCbcT+COneoflUrLOwhiIqCPpXrrTvHsDkAvlmaw1EdXcwdxsjeI7AjqCtPWoo96ZZ05RywCB4HtGIJNMbFHUWcWcQUvGpwROtxk69vzzPsRfg5C/63LrPSJc9OEtNc7GBs5kS4R+sBU92QIaaam8ayeP+0rsBc1WyaWc+EDtBkMglruM4UQ/rgG6y5/wJtX8jmVk8dnhQLwXnljp16raiBBTkAsVf9ChkOO9nuvxYWdcIvepO2mj5M8xg4uBYRkcJr/4bhHaxoWXWqTF3FR0ov+G1lRkr7Xet3FZnxKWHCvisQw/LkjxYJwqY/Y/gRCV7b2vX5oQNVv6pNQQuVCjq4KjwadgAjv6O4hWiyT0SeF/+hjHLOiGajv0gcrkOunI+FJIwhTUNPn7UzjV9QnHZkNgjSbXLUkvB6T41lUS358Ddt8NaraWykf9An/ekWTA0RkjK97aqFkfSewFxiq4dNNSDmoWQthV3Q19ZmLKRbC+K111wp+o7hKnLIud+1zFvJMlvPzAWwtyuTCncAlXGW8wF8yx0bSxUP3+nHMWF8OwFNcUi6TxXcc1yokypWoIPBCZsGj5F/rbKDISjsJRZ7VpQVSjR/m3F8dxZp/SIunsYvg69zg"
             }
